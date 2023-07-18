@@ -1,4 +1,4 @@
-library(readr)
+library(readr) 
 iris <- read_csv("/Users/yanweiliu/Downloads/iris.csv", 
                  col_names = FALSE, col_types = cols(X1 = col_double()))
 colnames(iris) <- c("Petal.Length", "Petal.Width", "Sepal.Length", "Sepal.Width", "Species")
